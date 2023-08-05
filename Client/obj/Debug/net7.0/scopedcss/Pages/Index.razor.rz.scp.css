@@ -1,0 +1,45 @@
+.page[b-21g1to4lg4] {
+    background-image: url(images/AIChefBG2.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover; 
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    color: var(--bs-light);
+    font-size: 1.2rem;
+}
+.pagestyle[b-21g1to4lg4] {
+    display: flex;
+    flex-direction: column;
+    backdrop-filter: blur(5px) brightness(40%);
+    height: 100%;
+}
+
+main[b-21g1to4lg4] {
+    flex: 1 0 auto;
+}
+
+footer[b-21g1to4lg4] {
+    flex-shrink: 0;
+}
+
+.landingPage[b-21g1to4lg4] {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+a[b-21g1to4lg4] {
+    color: var(--bs-light);
+    text-decoration: none;
+}
+
+a:visited[b-21g1to4lg4] {
+    color: var(--bs-light);
+}
+
+a:hover[b-21g1to4lg4]{
+   cursor: pointer;
+}

@@ -1,0 +1,129 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\Remse\\Desktop\\Mijn portfolio\\C# .NET applicaties\\Coder Foundry\\AIChefRemsey\\Client\\bin\\Debug\\net7.0\\wwwroot\\_framework\\blazor.webassembly.js",
+      "PackagePath": "staticwebassets\\_framework\\blazor.webassembly.js"
+    },
+    {
+      "Id": "C:\\Users\\Remse\\Desktop\\Mijn portfolio\\C# .NET applicaties\\Coder Foundry\\AIChefRemsey\\Client\\obj\\Debug\\net7.0\\build-gz\\V1sdsEvB.gz",
+      "PackagePath": "staticwebassets\\_framework\\blazor.webassembly.js.gz"
+    },
+    {
+      "Id": "C:\\Users\\Remse\\Desktop\\Mijn portfolio\\C# .NET applicaties\\Coder Foundry\\AIChefRemsey\\Client\\obj\\Debug\\net7.0\\scopedcss\\bundle\\AIChefRemsey.Client.styles.css",
+      "PackagePath": "staticwebassets\\AIChefRemsey.Client.styles.css"
+    },
+    {
+      "Id": "C:\\Users\\Remse\\Desktop\\Mijn portfolio\\C# .NET applicaties\\Coder Foundry\\AIChefRemsey\\Client\\wwwroot\\android-chrome-192x192.png",
+      "PackagePath": "staticwebassets\\android-chrome-192x192.png"
+    },
+    {
+      "Id": "C:\\Users\\Remse\\Desktop\\Mijn portfolio\\C# .NET applicaties\\Coder Foundry\\AIChefRemsey\\Client\\wwwroot\\android-chrome-512x512.png",
+      "PackagePath": "staticwebassets\\android-chrome-512x512.png"
+    },
+    {
+      "Id": "C:\\Users\\Remse\\Desktop\\Mijn portfolio\\C# .NET applicaties\\Coder Foundry\\AIChefRemsey\\Client\\wwwroot\\apple-touch-icon.png",
+      "PackagePath": "staticwebassets\\apple-touch-icon.png"
+    },
+    {
+      "Id": "C:\\Users\\Remse\\Desktop\\Mijn portfolio\\C# .NET applicaties\\Coder Foundry\\AIChefRemsey\\Client\\wwwroot\\css\\app.css",
+      "PackagePath": "staticwebassets\\css\\app.css"
+    },
+    {
+      "Id": "C:\\Users\\Remse\\Desktop\\Mijn portfolio\\C# .NET applicaties\\Coder Foundry\\AIChefRemsey\\Client\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Remse\\Desktop\\Mijn portfolio\\C# .NET applicaties\\Coder Foundry\\AIChefRemsey\\Client\\wwwroot\\css\\bootstrap\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Remse\\Desktop\\Mijn portfolio\\C# .NET applicaties\\Coder Foundry\\AIChefRemsey\\Client\\wwwroot\\css\\open-iconic\\FONT-LICENSE",
+      "PackagePath": "staticwebassets\\css\\open-iconic"
+    },
+    {
+      "Id": "C:\\Users\\Remse\\Desktop\\Mijn portfolio\\C# .NET applicaties\\Coder Foundry\\AIChefRemsey\\Client\\wwwroot\\css\\open-iconic\\ICON-LICENSE",
+      "PackagePath": "staticwebassets\\css\\open-iconic"
+    },
+    {
+      "Id": "C:\\Users\\Remse\\Desktop\\Mijn portfolio\\C# .NET applicaties\\Coder Foundry\\AIChefRemsey\\Client\\wwwroot\\css\\open-iconic\\README.md",
+      "PackagePath": "staticwebassets\\css\\open-iconic\\README.md"
+    },
+    {
+      "Id": "C:\\Users\\Remse\\Desktop\\Mijn portfolio\\C# .NET applicaties\\Coder Foundry\\AIChefRemsey\\Client\\wwwroot\\css\\open-iconic\\font\\css\\open-iconic-bootstrap.min.css",
+      "PackagePath": "staticwebassets\\css\\open-iconic\\font\\css\\open-iconic-bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Remse\\Desktop\\Mijn portfolio\\C# .NET applicaties\\Coder Foundry\\AIChefRemsey\\Client\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.eot",
+      "PackagePath": "staticwebassets\\css\\open-iconic\\font\\fonts\\open-iconic.eot"
+    },
+    {
+      "Id": "C:\\Users\\Remse\\Desktop\\Mijn portfolio\\C# .NET applicaties\\Coder Foundry\\AIChefRemsey\\Client\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.otf",
+      "PackagePath": "staticwebassets\\css\\open-iconic\\font\\fonts\\open-iconic.otf"
+    },
+    {
+      "Id": "C:\\Users\\Remse\\Desktop\\Mijn portfolio\\C# .NET applicaties\\Coder Foundry\\AIChefRemsey\\Client\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.svg",
+      "PackagePath": "staticwebassets\\css\\open-iconic\\font\\fonts\\open-iconic.svg"
+    },
+    {
+      "Id": "C:\\Users\\Remse\\Desktop\\Mijn portfolio\\C# .NET applicaties\\Coder Foundry\\AIChefRemsey\\Client\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.ttf",
+      "PackagePath": "staticwebassets\\css\\open-iconic\\font\\fonts\\open-iconic.ttf"
+    },
+    {
+      "Id": "C:\\Users\\Remse\\Desktop\\Mijn portfolio\\C# .NET applicaties\\Coder Foundry\\AIChefRemsey\\Client\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.woff",
+      "PackagePath": "staticwebassets\\css\\open-iconic\\font\\fonts\\open-iconic.woff"
+    },
+    {
+      "Id": "C:\\Users\\Remse\\Desktop\\Mijn portfolio\\C# .NET applicaties\\Coder Foundry\\AIChefRemsey\\Client\\wwwroot\\favicon-16x16.png",
+      "PackagePath": "staticwebassets\\favicon-16x16.png"
+    },
+    {
+      "Id": "C:\\Users\\Remse\\Desktop\\Mijn portfolio\\C# .NET applicaties\\Coder Foundry\\AIChefRemsey\\Client\\wwwroot\\favicon-32x32.png",
+      "PackagePath": "staticwebassets\\favicon-32x32.png"
+    },
+    {
+      "Id": "C:\\Users\\Remse\\Desktop\\Mijn portfolio\\C# .NET applicaties\\Coder Foundry\\AIChefRemsey\\Client\\wwwroot\\favicon.png",
+      "PackagePath": "staticwebassets\\favicon.png"
+    },
+    {
+      "Id": "C:\\Users\\Remse\\Desktop\\Mijn portfolio\\C# .NET applicaties\\Coder Foundry\\AIChefRemsey\\Client\\wwwroot\\icon-192.png",
+      "PackagePath": "staticwebassets\\icon-192.png"
+    },
+    {
+      "Id": "C:\\Users\\Remse\\Desktop\\Mijn portfolio\\C# .NET applicaties\\Coder Foundry\\AIChefRemsey\\Client\\wwwroot\\images\\AIChefBG2.png",
+      "PackagePath": "staticwebassets\\images\\AIChefBG2.png"
+    },
+    {
+      "Id": "C:\\Users\\Remse\\Desktop\\Mijn portfolio\\C# .NET applicaties\\Coder Foundry\\AIChefRemsey\\Client\\wwwroot\\images\\AiChefLogoDark.png",
+      "PackagePath": "staticwebassets\\images\\AiChefLogoDark.png"
+    },
+    {
+      "Id": "C:\\Users\\Remse\\Desktop\\Mijn portfolio\\C# .NET applicaties\\Coder Foundry\\AIChefRemsey\\Client\\wwwroot\\images\\AiChefLogoLight.png",
+      "PackagePath": "staticwebassets\\images\\AiChefLogoLight.png"
+    },
+    {
+      "Id": "C:\\Users\\Remse\\Desktop\\Mijn portfolio\\C# .NET applicaties\\Coder Foundry\\AIChefRemsey\\Client\\wwwroot\\index.html",
+      "PackagePath": "staticwebassets\\index.html"
+    },
+    {
+      "Id": "C:\\Users\\Remse\\Desktop\\Mijn portfolio\\C# .NET applicaties\\Coder Foundry\\AIChefRemsey\\Client\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.AIChefRemsey.Client.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.build.AIChefRemsey.Client.props",
+      "PackagePath": "build\\AIChefRemsey.Client.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildMultiTargeting.AIChefRemsey.Client.props",
+      "PackagePath": "buildMultiTargeting\\AIChefRemsey.Client.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildTransitive.AIChefRemsey.Client.props",
+      "PackagePath": "buildTransitive\\AIChefRemsey.Client.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

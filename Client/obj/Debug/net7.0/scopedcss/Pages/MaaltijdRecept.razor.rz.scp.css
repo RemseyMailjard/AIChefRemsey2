@@ -1,0 +1,11 @@
+.receptAfbeelding[b-gocv5zppdr] {
+    height: 300px;
+    width: 300px;
+}
+
+@media (min-width: 992px) {
+    .receptAfbeelding[b-gocv5zppdr] {
+        height: 450px;
+        width: 450px;
+  }
+}

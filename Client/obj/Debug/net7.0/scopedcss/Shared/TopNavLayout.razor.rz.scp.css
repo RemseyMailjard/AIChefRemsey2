@@ -1,0 +1,8 @@
+main[b-zfp08h19ph] {
+    flex: 1 0 auto;
+}
+
+footer[b-zfp08h19ph] {
+    flex-shrink:0;
+    background-color: var(--bs-success-bg-subtle);
+}

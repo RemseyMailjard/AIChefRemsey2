@@ -1,0 +1,12 @@
+C:\Users\Remse\Desktop\Mijn portfolio\C# .NET applicaties\Coder Foundry\AIChefRemsey\Shared\bin\Debug\net7.0\AIChefRemsey.Shared.deps.json
+C:\Users\Remse\Desktop\Mijn portfolio\C# .NET applicaties\Coder Foundry\AIChefRemsey\Shared\bin\Debug\net7.0\AIChefRemsey.Shared.dll
+C:\Users\Remse\Desktop\Mijn portfolio\C# .NET applicaties\Coder Foundry\AIChefRemsey\Shared\bin\Debug\net7.0\AIChefRemsey.Shared.pdb
+C:\Users\Remse\Desktop\Mijn portfolio\C# .NET applicaties\Coder Foundry\AIChefRemsey\Shared\obj\Debug\net7.0\AIChefRemsey.Shared.csproj.AssemblyReference.cache
+C:\Users\Remse\Desktop\Mijn portfolio\C# .NET applicaties\Coder Foundry\AIChefRemsey\Shared\obj\Debug\net7.0\AIChefRemsey.Shared.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Remse\Desktop\Mijn portfolio\C# .NET applicaties\Coder Foundry\AIChefRemsey\Shared\obj\Debug\net7.0\AIChefRemsey.Shared.AssemblyInfoInputs.cache
+C:\Users\Remse\Desktop\Mijn portfolio\C# .NET applicaties\Coder Foundry\AIChefRemsey\Shared\obj\Debug\net7.0\AIChefRemsey.Shared.AssemblyInfo.cs
+C:\Users\Remse\Desktop\Mijn portfolio\C# .NET applicaties\Coder Foundry\AIChefRemsey\Shared\obj\Debug\net7.0\AIChefRemsey.Shared.csproj.CoreCompileInputs.cache
+C:\Users\Remse\Desktop\Mijn portfolio\C# .NET applicaties\Coder Foundry\AIChefRemsey\Shared\obj\Debug\net7.0\AIChefRemsey.Shared.dll
+C:\Users\Remse\Desktop\Mijn portfolio\C# .NET applicaties\Coder Foundry\AIChefRemsey\Shared\obj\Debug\net7.0\refint\AIChefRemsey.Shared.dll
+C:\Users\Remse\Desktop\Mijn portfolio\C# .NET applicaties\Coder Foundry\AIChefRemsey\Shared\obj\Debug\net7.0\AIChefRemsey.Shared.pdb
+C:\Users\Remse\Desktop\Mijn portfolio\C# .NET applicaties\Coder Foundry\AIChefRemsey\Shared\obj\Debug\net7.0\ref\AIChefRemsey.Shared.dll

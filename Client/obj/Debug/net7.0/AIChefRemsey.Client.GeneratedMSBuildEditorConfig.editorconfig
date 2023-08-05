@@ -1,0 +1,81 @@
+is_global = true
+build_property.TargetFramework = net7.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = false
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = browser
+build_property.RootNamespace = AIChefRemsey.Client
+build_property.RootNamespace = AIChefRemsey.Client
+build_property.ProjectDir = C:\Users\Remse\Desktop\Mijn portfolio\C# .NET applicaties\Coder Foundry\AIChefRemsey\Client\
+build_property.RazorLangVersion = 7.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\Remse\Desktop\Mijn portfolio\C# .NET applicaties\Coder Foundry\AIChefRemsey\Client
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/Remse/Desktop/Mijn portfolio/C\# .NET applicaties/Coder Foundry/AIChefRemsey/Client/App.razor]
+build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Remse/Desktop/Mijn portfolio/C\# .NET applicaties/Coder Foundry/AIChefRemsey/Client/Pages/Counter.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ291bnRlci5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Remse/Desktop/Mijn portfolio/C\# .NET applicaties/Coder Foundry/AIChefRemsey/Client/Pages/FetchData.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRmV0Y2hEYXRhLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Remse/Desktop/Mijn portfolio/C\# .NET applicaties/Coder Foundry/AIChefRemsey/Client/Pages/MaakMaaltijd.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTWFha01hYWx0aWpkLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Remse/Desktop/Mijn portfolio/C\# .NET applicaties/Coder Foundry/AIChefRemsey/Client/Pages/MaaltijdIdeeën.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTWFhbHRpamRJZGVlw6tuLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Remse/Desktop/Mijn portfolio/C\# .NET applicaties/Coder Foundry/AIChefRemsey/Client/Shared/LandingPageLayout.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXExhbmRpbmdQYWdlTGF5b3V0LnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Remse/Desktop/Mijn portfolio/C\# .NET applicaties/Coder Foundry/AIChefRemsey/Client/Shared/ReceptState.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXFJlY2VwdFN0YXRlLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Remse/Desktop/Mijn portfolio/C\# .NET applicaties/Coder Foundry/AIChefRemsey/Client/Shared/SurveyPrompt.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXFN1cnZleVByb21wdC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Remse/Desktop/Mijn portfolio/C\# .NET applicaties/Coder Foundry/AIChefRemsey/Client/_Imports.razor]
+build_metadata.AdditionalFiles.TargetPath = X0ltcG9ydHMucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Remse/Desktop/Mijn portfolio/C\# .NET applicaties/Coder Foundry/AIChefRemsey/Client/Pages/Index.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXgucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-21g1to4lg4
+
+[C:/Users/Remse/Desktop/Mijn portfolio/C\# .NET applicaties/Coder Foundry/AIChefRemsey/Client/Pages/MaaltijdRecept.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTWFhbHRpamRSZWNlcHQucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-gocv5zppdr
+
+[C:/Users/Remse/Desktop/Mijn portfolio/C\# .NET applicaties/Coder Foundry/AIChefRemsey/Client/Shared/ChefSpinner.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXENoZWZTcGlubmVyLnJhem9y
+build_metadata.AdditionalFiles.CssScope = b-rktcxyy2f6
+
+[C:/Users/Remse/Desktop/Mijn portfolio/C\# .NET applicaties/Coder Foundry/AIChefRemsey/Client/Shared/MainLayout.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE1haW5MYXlvdXQucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-jfw549wec7
+
+[C:/Users/Remse/Desktop/Mijn portfolio/C\# .NET applicaties/Coder Foundry/AIChefRemsey/Client/Shared/NavMenu.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE5hdk1lbnUucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-4tevmdikm4
+
+[C:/Users/Remse/Desktop/Mijn portfolio/C\# .NET applicaties/Coder Foundry/AIChefRemsey/Client/Shared/TopNavLayout.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXFRvcE5hdkxheW91dC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = b-zfp08h19ph
+
+[C:/Users/Remse/Desktop/Mijn portfolio/C\# .NET applicaties/Coder Foundry/AIChefRemsey/Client/Shared/TopNavMenu.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXFRvcE5hdk1lbnUucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-hb9dpg4nfr

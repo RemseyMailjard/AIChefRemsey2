@@ -1,0 +1,110 @@
+﻿@page "/maaltijdidee"
+@using AIChefRemsey.Shared;
+@using System.Text.Json;
+@inject NavigationManager navigationManager;
+@inject HttpClient Http;
+
+
+@if (geladen == true)
+{
+    <div class="container">
+        <h3>Kies een maaltijd om te maken:</h3>
+        <div class="list-group">
+            @foreach (var idee in ideeën)
+            {
+                <button @onclick="() => VerkrijgRecept(idee.index)" class="list-group-item list-group-item-action list-group-item-success p-2">
+                    <div class="d-flex w-100 justify-content-between">
+                        <h2 class="mb-1 fw-bold">@idee.title</h2>
+                        </div>
+                        <p class="mb-1">@idee.description</p>
+             
+                </button>
+            }
+        </div>
+    </div>
+}
+else
+{
+ <ChefSpinner>
+
+ </ChefSpinner>
+
+
+  
+}
+
+@code {
+    private List<Idee> ideeën = new List<Idee>();
+
+    private bool geladen = false;
+
+    [CascadingParameter]
+    private ReceptState rState { get; set; }
+
+    private readonly JsonSerializerOptions _jsonOpties = new()
+        {
+            PropertyNameCaseInsensitive = true,
+            PropertyNamingPolicy = JsonNamingPolicy.CamelCase,
+            DefaultIgnoreCondition = System.Text.Json.Serialization.JsonIgnoreCondition.WhenWritingNull
+        };
+
+    protected override void OnInitialized()
+    {
+        if (rState is null)
+        {
+            navigationManager.NavigateTo("/", forceLoad: true);
+        }
+
+        if(rState.Ideën.Count <1)
+        {
+            GetIdeen();
+        }
+        else
+        {
+            geladen = true;
+            ideeën = rState.Ideën;
+            StateHasChanged();
+        }
+
+    }
+    private async void GetIdeen() 
+    {
+        string baseuri = "Recept/VerkrijgReceptIdee";
+        geladen = false;
+
+        ReceptParameters receptPara = new ReceptParameters()
+            {
+                Maaltijdmoment = rState.Maaltijdmoment,
+                Ingredients = rState.Ingrediënten
+            };
+
+
+        //Call Web api Controller
+        try
+        {
+            HttpResponseMessage response = await Http.PostAsJsonAsync(baseuri, receptPara, _jsonOpties);
+
+            response.EnsureSuccessStatusCode();
+
+            ideeën = (await response.Content.ReadFromJsonAsync<List<Idee>>())!;
+            rState.Ideën = ideeën;
+            geladen = true;
+            StateHasChanged();
+
+
+        }
+        catch (Exception)
+        {
+
+            Console.WriteLine("Error: Kan de recepten niet ophalen");
+        }
+    }
+
+    private void VerkrijgRecept(int index)
+    {
+        navigationManager.NavigateTo($"/maaltijdRecept/{index}");
+    }
+}
+
+   
+

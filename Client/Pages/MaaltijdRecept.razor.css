@@ -1,0 +1,11 @@
+﻿.receptAfbeelding {
+    height: 300px;
+    width: 300px;
+}
+
+@media (min-width: 992px) {
+    .receptAfbeelding {
+        height: 450px;
+        width: 450px;
+  }
+}

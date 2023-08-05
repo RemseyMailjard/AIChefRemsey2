@@ -1,0 +1,123 @@
+﻿@page "/maaltijdRecept/{Index:int}"
+@using AIChefRemsey.Shared;
+@using System.Text.Json
+@using System.Web;
+@inject HttpClient Http;
+@inject NavigationManager navigationManager;
+@inject IJSRuntime Js;
+
+@if (geladen == true)
+{
+        <div class="container mt-5 h-100">
+            <div class="d-flex flex-column flex-lg-row justify-content-start">
+                <div class="text-center text-lg-start">
+                    
+                        <img src="@receptAfbeeldingURL" class="rounded-3 receptAfbeelding" />
+                </div>
+            </div>
+            <div class="flex-grow-1 px-3">
+                <h1 class="fw-bold">@recept.title</h1>
+                <p>@recept.summary</p>
+                <div class="text-end">
+                    <button class="btn btn-success d-print-none" @onclick="Print">Print</button>
+                </div>
+            </div>
+            <div class="row row-cols-1 row-cols-md-2"> 
+                <div class="col mt-3">
+                    <h2>Ingrediënten:</h2>
+                    <ul>
+                    @foreach (var item in recept.ingredients)
+                    {
+                                <li>@item</li>    
+                    }
+                    </ul>
+                </div>
+                <div class="col">
+                    <h2>Instructies</h2>
+                    <ul>
+                    @foreach (var item in recept.instructions)
+                    {
+                                <li>@item</li>    
+                    }
+                    </ul>
+                </div>
+                <div class="col">
+                    <!-- Inhoud voor de derde kolom -->
+                </div>
+            </div>
+        </div>
+}
+
+
+
+else
+{
+     <ChefSpinner>
+
+     </ChefSpinner>
+
+}
+}
+
+
+@code {
+    [CascadingParameter]
+    private ReceptState? receptState { get; set; }
+
+    [Parameter]
+    public int Index { get; set; }
+
+    public bool geladen = false;
+
+    private string? title;
+    private string receptAfbeeldingURL = "";
+
+    private Recept recept;
+    protected override void OnInitialized()
+    {
+        HaalReceptOp();
+
+    }
+
+    private async void HaalReceptOp()
+    {
+        string baseuri = "Recept/VerkrijgRecept";
+
+        try
+        {
+            title = receptState.Ideën.FirstOrDefault(i => i.index == Index).title;
+
+            ReceptParameters receptParems = new ReceptParameters()
+                {
+                    Maaltijdmoment = receptState.Maaltijdmoment,
+                    Ingredients = receptState.Ingrediënten,
+                    GeselecteerdeIdee = title
+                };
+
+            HttpResponseMessage responseImage = await Http.GetAsync($"Recept/VerkrijgReceptAfbeelding?title={HttpUtility.UrlEncode(title)}");
+            var receptAfbeelding = await responseImage.Content.ReadFromJsonAsync<ReceptAfbeelding>();
+            receptAfbeeldingURL = receptAfbeelding!.data[0].url;
+
+            //Verkrijg recept
+            HttpResponseMessage responseRecept = await Http.PostAsJsonAsync(baseuri, receptParems);
+
+            responseRecept.EnsureSuccessStatusCode();
+
+            recept = (await responseRecept.Content.ReadFromJsonAsync<Recept>())!;
+            geladen = true;
+            StateHasChanged();
+
+        }
+        catch
+        {
+            Console.WriteLine("Kan geen receppt niet genereren");
+        };
+
+        geladen = true;
+    }
+
+    private async Task Print()
+    {
+        await Js.InvokeVoidAsync("printInvoke");
+    }
+}

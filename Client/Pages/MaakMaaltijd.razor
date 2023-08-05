@@ -1,0 +1,130 @@
+﻿@page "/maakmaaltijd"
+@using AIChefRemsey.Shared
+@using Microsoft.AspNetCore.Components.Forms;
+@using System.ComponentModel.DataAnnotations;
+@inject NavigationManager navigationManager;
+
+
+<PageTitle>AI Chef - Maak maaltijd</PageTitle>
+
+<div class="container mt-5">
+    <h3>Hallo Remsey hier, je AI Chef! Heb je zin om een maaltijd te maken?</h3>
+
+   <div class="row">
+       <div class="col">
+           <h1>Maak maaltijd</h1>
+           <EditForm EditContext="@editcontext">
+               <div class="row gy-2">
+                   <div class="col-12">
+                       <label class="form-label">Maaltijd moment:</label>
+                       <InputSelect @bind-Value="maaltijd.maaltijdmoment" class="form-select">
+                           <option value="Breakfast">Ontbijt</option>
+                            <option value="Lunch">Lunch</option>
+                            <option value="Dinner">Avondeten</option>
+                            <option value="Dessert">Toetje</option>
+                       </InputSelect>
+                   </div>
+                    <div class="col-12">
+                        <label class="form-label">Ingredient:</label>
+                        <InputText placeholder="ingrediënt toevoegen" maxlength="30" @bind-Value="maaltijd.ingrediënt" class="form-control mb-2"> </InputText>
+                   </div>
+                   <div class="col-12">
+                       <button class="btn btn-outline-success" @onclick="VoegIngrediëntToe">Toevoegen</button>
+                       <button class="btn btn-outline-danger" @onclick="MaakLeeg">Leeg maken</button>
+                   </div>
+                   <div class="col-12 mt-3">
+                      
+                       <div class="table-responsive">
+                           <table class="table table-striped">
+                               <thead>
+                                   <tr>
+                                       <th>Ingrediënten</th>
+                                   </tr>
+                               </thead>
+                               <tbody>
+                                    @foreach (var ingredient in ingrediënten)
+                                    {
+                                        <tr>
+                                            <td>
+                                                @ingredient.Beschrijving
+                                            </td>
+                                            <td class="text-end pe-3">
+                                                <button class="btn btn-outline-danger" @onclick="() => VerwijderIngredient(ingredient.Id)"><i class="bi bi-trash-fill"></i></button>
+                                            </td>
+                                        </tr>
+                                    }
+                               </tbody>
+                           </table>
+                     </div>
+                   </div>
+                   <div class="col-12">
+                       <button class="btn btn-success rounded" @onclick="AfhandelenVerzenden">Maak recept</button>
+                   </div>
+               </div>
+           </EditForm>
+       </div>
+   </div>
+</div>
+
+@code {
+    [CascadingParameter]
+    private ReceptState rState { get; set; }
+    private EditContext? editcontext;
+    private Maaltijd maaltijd = new();
+    private List<Ingredient> ingrediënten = new List<Ingredient>();
+
+
+    protected override void OnInitialized()
+    {
+        if(rState is null)
+        {
+            navigationManager.NavigateTo("/", forceLoad: true);
+            return;
+
+        }
+        editcontext = new(maaltijd);
+        maaltijd.maaltijdmoment = rState.Maaltijdmoment;
+        ingrediënten = rState.Ingrediënten;
+    }
+
+    private class Maaltijd 
+    {
+        public string? maaltijdmoment { get; set; }
+        public string? ingrediënt { get; set; }
+    }
+
+    private void VoegIngrediëntToe()
+    {
+        if (!string.IsNullOrEmpty(maaltijd.ingrediënt))
+        {
+            ingrediënten.Add(new Ingredient()
+                {
+                    Id = Guid.NewGuid(),
+                    Beschrijving = maaltijd.ingrediënt
+                 }
+            );
+        }
+
+        // Maak de tekstbox leeg
+        maaltijd.ingrediënt = string.Empty;
+    }
+
+    private void MaakLeeg()
+    {
+        ingrediënten.Clear();
+    }
+
+    private void VerwijderIngredient(Guid _id)
+    {
+        ingrediënten.Remove(ingrediënten.First(x => x.Id == _id));
+    }
+
+    private void AfhandelenVerzenden()
+    {
+        rState.Maaltijdmoment = maaltijd.maaltijdmoment;
+        rState.Ingrediënten = ingrediënten;
+ 
+        navigationManager.NavigateTo("/maaltijdidee");
+    }
+
+}
