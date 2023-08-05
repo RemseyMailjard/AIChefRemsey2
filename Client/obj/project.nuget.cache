@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "EAaYwcuEfUYPX6VRgwCqpWEEHF8RMXZszzWiV+jOfxmFFpXQffjvTBU4D+9cNhDtCFWhE/FH5je9f1xoHSt0ig==",
+  "dgSpecHash": "CwEna7VmMf7JS43XIeHvueiMN7NHn2tzZc55gE11Fl/HvHCe7UbLDQzHBPNIgRX9cz55+ZWLQstU67o5J+EWJQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Remse\\Desktop\\Mijn portfolio\\C# .NET applicaties\\Coder Foundry\\AIChefRemsey\\Client\\AIChefRemsey.Client.csproj",
+  "projectFilePath": "C:\\Users\\Remse\\Desktop\\Mijn portfolio\\C# .NET applicaties\\Coder Foundry\\AIChefRemsey\\AIChefRemsey\\Client\\AIChefRemsey.Client.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Remse\\.nuget\\packages\\microsoft.aspnetcore.authorization\\7.0.9\\microsoft.aspnetcore.authorization.7.0.9.nupkg.sha512",
     "C:\\Users\\Remse\\.nuget\\packages\\microsoft.aspnetcore.components\\7.0.9\\microsoft.aspnetcore.components.7.0.9.nupkg.sha512",

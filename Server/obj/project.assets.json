@@ -1272,11 +1272,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Remse\\Desktop\\Mijn portfolio\\C# .NET applicaties\\Coder Foundry\\AIChefRemsey\\Server\\AIChefRemsey.Server.csproj",
+      "projectUniqueName": "C:\\Users\\Remse\\Desktop\\Mijn portfolio\\C# .NET applicaties\\Coder Foundry\\AIChefRemsey\\AIChefRemsey\\Server\\AIChefRemsey.Server.csproj",
       "projectName": "AIChefRemsey.Server",
-      "projectPath": "C:\\Users\\Remse\\Desktop\\Mijn portfolio\\C# .NET applicaties\\Coder Foundry\\AIChefRemsey\\Server\\AIChefRemsey.Server.csproj",
+      "projectPath": "C:\\Users\\Remse\\Desktop\\Mijn portfolio\\C# .NET applicaties\\Coder Foundry\\AIChefRemsey\\AIChefRemsey\\Server\\AIChefRemsey.Server.csproj",
       "packagesPath": "C:\\Users\\Remse\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Remse\\Desktop\\Mijn portfolio\\C# .NET applicaties\\Coder Foundry\\AIChefRemsey\\Server\\obj\\",
+      "outputPath": "C:\\Users\\Remse\\Desktop\\Mijn portfolio\\C# .NET applicaties\\Coder Foundry\\AIChefRemsey\\AIChefRemsey\\Server\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -1298,11 +1298,11 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
-            "C:\\Users\\Remse\\Desktop\\Mijn portfolio\\C# .NET applicaties\\Coder Foundry\\AIChefRemsey\\Client\\AIChefRemsey.Client.csproj": {
-              "projectPath": "C:\\Users\\Remse\\Desktop\\Mijn portfolio\\C# .NET applicaties\\Coder Foundry\\AIChefRemsey\\Client\\AIChefRemsey.Client.csproj"
+            "C:\\Users\\Remse\\Desktop\\Mijn portfolio\\C# .NET applicaties\\Coder Foundry\\AIChefRemsey\\AIChefRemsey\\Client\\AIChefRemsey.Client.csproj": {
+              "projectPath": "C:\\Users\\Remse\\Desktop\\Mijn portfolio\\C# .NET applicaties\\Coder Foundry\\AIChefRemsey\\AIChefRemsey\\Client\\AIChefRemsey.Client.csproj"
             },
-            "C:\\Users\\Remse\\Desktop\\Mijn portfolio\\C# .NET applicaties\\Coder Foundry\\AIChefRemsey\\Shared\\AIChefRemsey.Shared.csproj": {
-              "projectPath": "C:\\Users\\Remse\\Desktop\\Mijn portfolio\\C# .NET applicaties\\Coder Foundry\\AIChefRemsey\\Shared\\AIChefRemsey.Shared.csproj"
+            "C:\\Users\\Remse\\Desktop\\Mijn portfolio\\C# .NET applicaties\\Coder Foundry\\AIChefRemsey\\AIChefRemsey\\Shared\\AIChefRemsey.Shared.csproj": {
+              "projectPath": "C:\\Users\\Remse\\Desktop\\Mijn portfolio\\C# .NET applicaties\\Coder Foundry\\AIChefRemsey\\AIChefRemsey\\Shared\\AIChefRemsey.Shared.csproj"
             }
           }
         }
